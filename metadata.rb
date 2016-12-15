@@ -1,4 +1,4 @@
-name             'acme'
+name             'acme-g'
 maintainer       'Thijs Houtenbos'
 maintainer_email 'thoutenbos@schubergphilis.com'
 license          'All rights reserved'
