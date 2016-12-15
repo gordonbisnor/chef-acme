@@ -82,7 +82,7 @@ action :create do
           validation = acme_validate_immediately(authz, 'http01', tokenroot, auth_file)
 
           if validation.status != 'valid'
-            fail "[#{new_resource.cn}] Validation failed for domain #{authz.domain}"
+            fail "[#{new_resource.cn}] Validation failed for domain #{authz.domain} with status #{validation.status}"
           end
 
           validation
